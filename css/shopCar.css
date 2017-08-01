@@ -1,0 +1,198 @@
+.container{
+	width:100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+header{
+	width:100%;
+	height:55px;
+	position:fixed;
+	top:0;
+	left:0;	
+}
+.header_box{
+	width: 100%;
+    height: 46px;
+    min-width: 300px;
+    max-width: 640px;
+    margin:0 auto;
+    border-bottom:1px solid #E1E1E1;
+}
+.header_box em{
+	width:50%;
+	height:55px;
+	line-height:55px;
+	padding-left:18px;
+	display: block;
+	font-size:16px;
+}
+/*内容区域开始*/
+.shopCar_content{
+	width:100%;
+	height:100%;
+	padding:55px 0;
+	min-width:300px;
+	max-width:640px;
+}
+.shopList_box{
+	width:100%;
+}
+.shopList_title{
+	width:100%;
+	height:52px;
+	padding:14px 18px;
+	box-sizing:border-box;
+	border-bottom: 1px solid #EAEAEA;
+}
+.shopList_title span{
+	float:left;
+	font-size: 16px;
+}
+.shopList_title a{
+	width:21px;
+	height:21px;
+	display: block;
+	float:right;
+	background:url(../img/shopCar/icon_delete.png) no-repeat;
+	background-size:21px 21px;
+}
+.shopList_con{
+	height:88px;
+	margin:0 18px;
+	position:relative;
+	border-bottom:1px solid #E1E1E1;
+	overflow: hidden;
+}
+.shopList_con_left{
+	width:36px;
+	height:36px;	
+	position:absolute;
+	float:left;
+	top:30%;
+	left:0;
+}
+.shopList_con_left a{
+	height:36px;
+	display: block;
+	background: url(../img/shopCar/icon4_1.png) no-repeat;
+	background-size:36px 72px;
+	background-position:-4px -36px;
+}
+.shopList_con_right{
+	position:absolute;
+	top:10px;
+	left:30px;
+}
+.product_img{
+	display:block;
+	/*width:69px;
+	height:69px;*/
+	width:20%;
+	height:20%;
+	float:left;
+}
+.product_img img{
+	width:100%;
+	height:100%;
+}
+.product_info{
+	/*width:278px;
+	height:73px;*/
+	width:80%;
+	height:100%;
+	float:left;
+	overflow: hidden;
+    padding:0 10px;
+}
+.info_name{	
+	height:50px;
+    font-size:13px;
+    line-height:20px;
+    /*vertical-align:middle;*/
+    overflow:hidden;
+    display:block;
+}
+.info_option{
+	width:100%;
+	height:25px;
+}
+.info_option span{
+	float:left;
+	font-size:14px;
+}
+.info_option input{
+	width:46px;
+	height:22px;
+	line-height:22px;
+	float:right;
+	border:1px solid #CCCCCC;
+	border-radius:10px;
+	text-align: center;
+}
+/*内容区域结束*/
+/*结算区域开始*/
+/*.reckoning{
+	width: 100%;
+	height:74px;
+	position:fixed;
+	bottom:55px;
+	left:0px;
+	border-top:1px solid #F6F6F6;
+	box-sizing: border-box;
+	padding:18px 18px;
+}
+.reckoning_select{
+	width:36px;
+	height:36px;	
+	float:left;
+}
+.reckoning_select a{
+	display:inline-block;
+	height:36px;
+	background: url(../img/shopCar/icon4_1.png) no-repeat;
+	background-size:36px 72px;
+	background-position:-4px -36px;
+}
+.reckoning_select span{
+	display:inline-block;
+	padding-right:36px;
+}
+.reckoning_all{
+    line-height: 35px;
+	float:right;
+	display: block;
+    padding-right:10px;
+}
+.reckoning_all em{
+	font-size:16px;
+	color:#ca151e ;
+}
+.shopCar_cartplay{
+	padding:5px 8px;
+	text-align:center;
+	float:right;
+	background-color: #ca151e;
+    box-shadow: 0 0 0 0.7em #ca151e inset;
+    border:1px solid #cc0a0d;
+    border-radius:18px;
+    color:#fff;
+    font-size:15px;
+}*/
+/*结算区域结束*/
+
+
+/*----------尾部开始----------*/
+ul li.index a span{
+    background-position:-30px 0px;
+}
+ul li.classify a span{
+    background-position:-138px 0px;
+}
+ul li.shopCar a span{
+    background-position:-246px -57px;
+}
+ul li.my a span{
+    background-position:-354px 0px;
+}
+/*----------尾部开始----------*/

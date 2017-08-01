@@ -1,0 +1,117 @@
+{
+	"choiceness":[{
+		"path":"./img/index/selection01.jpg",
+		"name":"HUAWEI WATCH 2",
+		"promotion":"让运动更健康",
+		"price":"¥1988"
+	},{
+		"path":"./img/index/selection02.jpg",
+		"name":"荣耀畅玩5C",
+		"promotion":"送精美配件",
+		"price":"¥1099"
+	},{
+		"path":"./img/index/selection03.jpg",
+		"name":"荣耀V8",
+		"promotion":"最高直降200元",
+		"price":"¥2299"
+	},{
+		"path":"./img/index/selection04.jpg",
+		"name":"荣耀V8",
+		"promotion":"最高直降200元",
+		"price":"¥2299"
+	},{
+		"path":"./img/index/selection05.jpg",
+		"name":"HUAWEI P10",
+		"promotion":"享12期免息",
+		"price":"¥4288"
+	},{
+		"path":"./img/index/selection06.jpg",
+		"name":"华为 Nova",
+		"promotion":"6月免息",
+		"price":"¥1899"
+	}],
+	"phone":[{
+		"title":"手机",
+		"more":"更多"
+	},
+	{
+		"path":"./img/index/phone01.jpg",
+		"name":"HUAWEI P10",
+		"promotion":"人像摄影大师",
+		"price":"¥4288"
+	},
+	{
+		"path":"./img/index/phone02.jpg",
+		"name":"荣耀畅玩5A",
+		"promotion":"用20元满减券",
+		"price":"¥699"
+	},
+	{
+		"path":"img/index/phone03.jpg",
+		"name":"荣耀 Note 8",
+		"promotion":"64G版限时优惠直降100",
+		"price":"¥2399"
+	},
+	{
+		"path":"img/index/phone04.jpg",
+		"name":"华为畅享6S",
+		"promotion":"千元高颜值旗舰",
+		"price":"¥1299"
+	}],
+	"slab":[{
+		"title":"平板",
+		"more":"更多"
+	},
+	{
+		"path":"img/index/slab01.jpg",
+		"name":"华为平板 M3",
+		"promotion":"哈曼卡顿高品质HI-FI音效",
+		"price":"¥1888"
+	},
+	{
+		"path":"img/index/slab02.jpg",
+		"name":"荣耀平板2",
+		"promotion":"八核强劲芯片大容量",
+		"price":"¥1299"
+	},
+	{
+		"path":"img/index/slab03.jpg",
+		"name":"HUAWEI MateBook",
+		"promotion":"二合一笔记本电脑",
+		"price":"¥6688"
+	},
+	{
+		"path":"img/index/slab04.jpg",
+		"name":"荣耀畅玩平板",
+		"promotion":"大容量电池强劲续航",
+		"price":"¥799"
+	}],
+	"dress":[{
+		"title":"平板",
+		"more":"更多"
+	},
+	{
+		"path":"img/index/dress01.jpg",
+		"name":"HUAWEI WATCH 2",
+		"promotion":"4G智能手表",
+		"price":"¥1988 "
+	},
+	{
+		"path":"img/index/dress02.jpg",
+		"name":"荣耀手表 S1",
+		"promotion":"心率监测 游泳防水",
+		"price":"¥699"
+	},
+	{
+		"path":"img/index/dress03.jpg",
+		"name":"华为手环 B3",
+		"promotion":"腕上私语 动静随心",
+		"price":"¥1199"
+	},
+	{
+		"path":"img/index/dress04.jpg",
+		"name":"荣耀手环zero",
+		"promotion":"科学记录运动数据",
+		"price":"¥349"
+	}	]
+}

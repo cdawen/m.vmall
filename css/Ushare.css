@@ -1,0 +1,158 @@
+.container{
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+}
+header{
+	/*width:100%;
+	height:45px;
+		*/
+    width: 100%;
+    height: 46px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+.header_box{
+	width: 100%;
+    height: 46px;
+    min-width: 300px;
+    max-width: 640px;
+    margin:0 auto;
+    border-bottom: 1px solid #CCCCCC;
+    position: relative;
+    background: #FFF;
+}
+.header_box a{
+	width:24px;
+	height:24px;
+	display: block;
+	position:absolute;
+	top:11px;
+	left:15px;
+	background:url(../img/Ushare/icon_return.png) no-repeat;
+	background-size:100% 100%;
+}
+.header_box span{
+	height:46px;
+	line-height: 46px;
+	display: block;
+	position:absolute;
+	left:53px;	
+	font-size:16px;
+}
+/*banner开始*/
+.Ushare_banner{
+	width:100%;
+	height:240px;
+	padding-top:46px;	
+	min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+	
+}
+.Ushare_banner a{
+	width:100%;
+	height:100%;
+	padding: 15px 20px;
+	position:relative;
+	display: block;
+	background:url(../img/Ushare/easy_main.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.Ushare_banner a span{
+	padding:5px 10px;
+	font-size:12px;
+	background:#aaa;
+	color:#FFF;
+	border-radius:18px;
+	position: absolute;
+	top:10px;
+	right:20px;
+}
+/*banner结束*/
+/*内容区开始*/
+.Ushare_content{
+	width:100%;
+	background:#FFF;
+}
+.Ushare_content_title{
+	width:100%;	
+	height:50px;
+	overflow: hidden;
+}
+.Ushare_content_title ul{
+	width:50%;
+	height:30px;
+	margin:10px auto;
+	border: 1px solid pink;
+	border-radius:15px;
+	overflow: hidden;
+}
+.Ushare_content_title ul li{
+	width:50%;
+	line-height: 30px;
+	text-align: center;
+	float:left;
+	border-right:1px solid pink;
+	background: rgba(245,245,245,0.5);
+}
+.Ushare_content_title ul li:nth-child(1) a{
+	background:rgba(250,215,226,0.5);
+}
+.Ushare_content_title ul li a{
+	width:100%;
+	height100%;
+	display: block;
+}
+/*内容区结束*/
+/*商品列表区开始*/
+.content_list{
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #EEEEEE;
+}
+.content_list ul{
+	padding: 12px 18px;
+}
+.content_list li{
+	width: 100%;
+	height: 100%;
+	display: block;	
+	border-bottom: 1px solid #EEEEEE;
+	padding: 8px 0;
+}
+.content_list li a{
+	display:block;
+}
+.list_left{
+	width:20%;
+}
+.list_right{
+	width:80%;
+}
+.list_left img{
+	/*width:96px;
+	height:96px;*/
+	width:100%;
+	width:100%;
+}
+.list_name,.list_promotion,.list_price{
+	width:100%;
+	padding-left: 8px;
+}
+.list_name{
+	font-size:15px;
+	color:#333;
+}
+.list_promotion{
+	color: #888;
+	font-size: 12px;
+}
+.list_price{
+	padding-top:8%;
+	color:#ca141d;
+	font-size: 13px;
+}
+/*商品列表区结束*/

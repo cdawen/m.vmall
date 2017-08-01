@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>登录</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/login.js" ></script>
+	</head>
+	<body>
+		<header>
+			<div class="login_title">
+				华为账号
+			</div>
+			<div class="login_sub">
+				华为帐号适用于访问所有华为服务。您可登录该帐号，访问云服务、华为商城、华为/荣耀官网、花粉俱乐部及更多服务。
+			</div>				
+		</header>
+		<div class="login_content">
+			<!--手机号码开始-->
+			<div class="num_box">
+				<input type="number" name="username" placeholder="手机号/邮件地址"></input>
+			</div>
+			<!--手机号码结束-->
+			<!--密码开始-->
+			<div class="password_box">
+				<input type="password" name="password" placeholder="密码"></input>
+				<img src="img/login/eyeoff.png"/>
+			</div>
+			<!--密码结束-->
+			<!--验证码开始-->
+			<div class="securityCode clearfix">
+				<div class="securityCode_left">
+					<input type="text" placeholder="验证码"></input>
+				</div>
+				<div class="securityCode_right">
+					<img src="https://hwid1.vmall.com/CAS/authCodeImage?session_code_key=login_session_ramdom_code_key"  alt="验证码">
+				</div>
+			</div>
+			<!--验证码结束-->
+			<!--登录按钮开始-->
+			<div class="login_btn">
+				<input type="button" id="" value="登录" />
+			</div>
+			<!--登录按钮结束-->
+			<!--记住密码开始-->
+			<div class="password_remember">
+				<img src="img/login/tick-on.png"/>
+				<span>记住密码</span>
+			</div>
+			<!--记住密码结束-->
+			<!--注册或者忘记密码开始-->
+			<div class="register">
+				<a href="#">注册账号</a>
+				<a href="#">忘记密码?</a>
+			</div>
+			<!--注册或者忘记密码结束始-->
+			<!--其他登录方式标题开始-->
+			<div class="other_login">
+				<div class="wire">
+					
+				</div>
+				<p><span>其他登录方式</span></p>
+			</div>
+			<!--其他登录方式标题结束-->
+			<!--第三方登录图片开始-->
+			<div class="thirdAccountPicture">
+				<a href="#" class="qq"><img src="img/login/wap_qq.png"/></a>
+				<a href="#" class="alipay"><img src="img/login/wap_alipay.png"/></a>
+			</div>
+			<!--第三方登录图片结束-->
+		</div>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+.container{
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+}
+header{
+	/*width:100%;
+	height:45px;
+		*/
+    width: 100%;
+    height: 46px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+.header_box{
+	width: 100%;
+    height: 46px;
+    min-width: 300px;
+    max-width: 640px;
+    margin:0 auto;
+    border-bottom: 1px solid #CCCCCC;
+    position: relative;
+    background: #FFF;
+}
+.header_box a{
+	width:24px;
+	height:24px;
+	display: block;
+	position:absolute;
+	top:11px;
+	left:15px;
+	background:url(../img/Ushare/icon_return.png) no-repeat;
+	background-size:100% 100%;
+}
+.header_box span{
+	height:46px;
+	line-height: 46px;
+	display: block;
+	position:absolute;
+	left:53px;	
+	font-size:16px;
+}
+
+.weather_con{
+	padding-top: 46px;
+	width:100%;
+	min-width: 300px;
+	max-width: 640px;
+	margin:0 auto;
+	text-align: center;
+	font:12px/25px '微软雅黑';
+}
+.weather_con table{
+	width:80%;
+	margin:0 auto;
+}

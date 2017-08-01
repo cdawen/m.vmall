@@ -1,0 +1,174 @@
+header{
+	min-width:300px;
+	max-width:640px;
+	padding:10% 24px 8px;
+	font-family:"Regular,Droid Sans, Droid Sans Fallback, STHeiti, SimHei, Hei";  
+}
+.login_title{
+	font-size: 24px;
+	text-align: center;
+}
+.login_sub{
+	font-size:13px;
+	margin-top:8px;
+	color: rgba(0,0,0,0.5);
+	text-align:center;
+}
+.login_content{
+	padding:0 24px;
+}
+/*手机号码*/
+.num_box{
+	height:40px;
+	margin:10% 0 8px;
+	border-radius: 20px;
+    min-height: 38px;
+    background-color: #EFEFEF;
+    padding-left:15px;
+}
+.num_box input{
+	width: 100%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+/*密码*/
+.password_box{
+	height:40px;
+	margin:0 0 8px;
+	border-radius: 20px;
+    min-height: 38px;
+    background-color: #EFEFEF;
+    padding-left:15px;
+    position:relative;
+}
+.password_box input{
+	width: 100%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.password_box img{
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:8px;
+	right:12px;
+}
+/*验证码*/
+.securityCode{
+	height:40px;
+	margin:0 0 8px;
+}
+.securityCode_left{
+	width: 40%;
+	border-radius: 20px;
+    min-height: 38px;
+    background-color: #EFEFEF;
+    padding-left:15px;
+	float:left;
+}
+.securityCode_left input{	
+	display:inline-block;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.securityCode_right{
+	width:20%;
+	padding-left:2%;
+    float: left;
+    padding-top:-20px ;
+}
+.securityCode_right img{
+	height:40px;	
+}
+.login_btn{
+	height:40px;
+	margin:0 0 8px;
+	border-radius: 20px;
+    min-height: 38px;
+    background-color: #007dff;
+    opacity:0.2;
+    text-align: center;
+}
+.login_btn input{
+	width: 100%;
+    height: 40px;
+    line-height:40px;
+    color:#FFF;
+    border: none;
+    background-color:transparent;
+    outline: none;
+}
+.password_remember{
+	height:18px;
+	margin-bottom:18px;
+}
+.password_remember img{
+	width:18px;
+	height:18px;
+	float: left;
+	margin-right:2%;
+}
+.password_remember span{
+	display: block;
+	height:18px;
+	font-size:12px;
+	line-height:18px;
+	float: left;
+}
+.register{
+	height:16px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.register a{
+	color:#007dff;;
+}
+.register a:nth-child(1){
+	margin-right:32px;
+}
+.other_login{
+	height:13px;
+	text-align: center;	
+	padding: 0 8px;
+    margin: 23px 0 15px 0;
+    position:relative;
+}
+.wire{
+	height:1px;	
+	text-align:center;
+	background:-webkit-linear-gradient(left,#fcfcfc,#cdcccc,#cdcccc,#fcfcfc);
+	margin-top:6px;	
+}
+.other_login p{
+	padding-left: 50%;
+	margin-left:-56.5px;
+}
+.other_login p span{
+	width:113px;
+	background:#FFF;
+	position:absolute;
+	top: -6px;
+	display:block;	
+	font-size: 12px;
+	color:rgba(0,0,0,0.5);
+	padding:0 20px;
+}
+.thirdAccountPicture{
+	height:40px;
+	text-align: center;
+}
+.thirdAccountPicture a{
+	padding:0 14px;	
+}
+.thirdAccountPicture a img{
+	display:inline-block;
+	width:40px;
+	height:40px;
+}
+
